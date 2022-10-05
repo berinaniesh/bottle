@@ -1,0 +1,45 @@
+table {
+	position: static;
+	width: 100%;
+}
+hr {
+	border: 3px solid blue;
+	background-color: blue;
+}
+a {
+	&:link {
+		color: blue;
+	}
+	&:visited {
+		color: blue;
+	}
+	&:hover {
+		color: white;
+		background-color: blue;
+		cursor: pointer;
+	}
+}
+body {
+	font-size: 18px;
+	font-family: "Meslo LG", "Menlo", monospace;
+	max-width: 80ch;
+	line-height: 1.5em;
+	overflow: scroll;
+	margin: auto;
+}
+&::selection {
+	color: white;
+	background-color: blue;
+}
+li {
+	margin: 5px;
+}
+.date {
+	color: gray;
+	font-weight: bold;
+}
+.tags {
+	font-size: 12px;
+	color: blue;
+}
+
