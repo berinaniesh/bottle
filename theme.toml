@@ -1,0 +1,16 @@
+name = "bottle"
+description = "A very simple personal website theme"
+license = "MIT"
+homepage = "https://github.com/berinaniesh/bottle"
+min_version = "0.4.0"
+
+[author]
+name = "Berin Aniesh"
+homepage = "https://berinaniesh.github.io"
+email = "berinaniesh@gmail.com"
+
+[original]
+# Converting his static website into a zola theme
+author = "bentrevett"
+homepage = "https://bentrevett.com"
+repo = "https://www.github.com/bentrevett/bentrevett.github.io"
