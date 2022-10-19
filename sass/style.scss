@@ -50,11 +50,15 @@ li {
     color: blue; /* blue text */
 }
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+#mainname {
+    text-align: left;
+    color: red;
 }
+
+.header {
+    position: static;
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+ }
 
