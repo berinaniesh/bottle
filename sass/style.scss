@@ -1,8 +1,3 @@
-table {
-    position: static;
-    width: 100%; /* tables should span the page width */
-}
-
 hr {
     border: 3px solid blue; /* horizontal line should be thick and blue */
     background-color: blue; /* needed to make line solid */
@@ -49,16 +44,4 @@ li {
     font-size: 12px; /* smaller text */
     color: blue; /* blue text */
 }
-
-#mainname {
-    text-align: left;
-    color: red;
-}
-
-.header {
-    position: static;
-    padding: 60px;
-    text-align: center;
-    font-size: 30px;
- }
 
